@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_standard"
+        android:paddingLeft="@dimen/padding_standard"
+        android:paddingRight="@dimen/padding_standard"
+        android:paddingTop="@dimen/padding_standard">
+
+        <TextView
+            style="@style/button_main"
+            android:text="@string/main_title"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="@dimen/padding_standard"/>
+
+        <Button
+            android:id="@+id/btn_spotify_streamer"
+            style="@style/button_main"
+            android:text="@string/spotify_streamer" />
+
+        <Button
+            android:id="@+id/btn_football_scores"
+            style="@style/button_main"
+            android:text="@string/football_scores" />
+
+        <Button
+            android:id="@+id/btn_library_app"
+            style="@style/button_main"
+            android:text="@string/library_app" />
+
+        <Button
+            android:id="@+id/btn_build_it_together"
+            style="@style/button_main"
+            android:text="@string/build_it_together" />
+
+        <Button
+            android:id="@+id/btn_xyz_reader"
+            style="@style/button_main"
+            android:text="@string/xyz_reader" />
+
+        <Button
+            android:id="@+id/btn_capstone"
+            style="@style/button_main"
+            android:text="@string/capstone" />
+    </LinearLayout>
+</ScrollView>
